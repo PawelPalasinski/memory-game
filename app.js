@@ -39,14 +39,28 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "yellow",
       img: "images/yellow.png",
-    }
-    ]
-    
-    const grid = document.querySelector('.grid')
+    },
+  ];
 
-    function createBoard() {
-        for (let i = 0; i < cardArr.length; i++) {
-            var card
-        }
+    const grid = document.querySelector(".grid");
+    const cardsChosen = []
+    const cardsChosen = []
+
+  function createBoard() {
+    for (let i = 0; i < cardArr.length; i++) {
+      var card = document.createElement("img");
+      card.setAttribute("src", "images/blank.png");
+      card.setAttribute("data-id", i);
+      // card.addEventListener('click', flipcard)
+      grid.appendChild(card);
     }
+  }
+
+    function flipcard() {
+        const cardId = this.getAttribute('data-id', i)
+        cardsChosen.push(cardArr[cardId].name)
+    }
+    
+    
+  createBoard();
 });
