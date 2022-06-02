@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+h3 {
+  color: whitesmoke;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 550px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.restart {
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+.restart:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #5f0505;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
