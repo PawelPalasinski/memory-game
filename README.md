@@ -1,7 +1,7 @@
 # Memory Game
 
 Simple memory game made using vanilla JavaScript, html and CSS.
-Made from the tutorial by Ania Kubow (https://www.youtube.com/watch?v=tjyDOHzKN0w&list=WL&index=8).
+Core of the game script based on the tutorial by Ania Kubow (https://www.youtube.com/watch?v=tjyDOHzKN0w&list=WL&index=8).
 
 ## Rules of Memory Game
 - You will start by flipping over one card
