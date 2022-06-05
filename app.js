@@ -134,10 +134,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-document.querySelector(".restart").addEventListener("click", function () {
-  window.location.reload();
-  return false;
-});
+  document.querySelector(".restart").addEventListener("click", function () {
+    window.location.reload();
+    return false;
+  });
 
   createBoard();
 });
