@@ -12,8 +12,8 @@ h3 {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  height: 450px;
-  width: 550px;
+  max-height: 450px;
+  max-width: 550px;
   justify-content: space-between;
   margin: 20px;
 }
